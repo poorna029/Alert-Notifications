@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+}
+.Success {
+  color: green;
+}
+.Error {
+  color: red;
+}
+.Warning {
+  color: orange;
+}
+
+.Info {
+  color: skyblue;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.clear {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  margin-top: 23px;
+  font-size: 30px;
+}
+.self {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 0px;
+  margin-left: 30px;
+  line-height: 1;
+  width: 40vw;
+}
